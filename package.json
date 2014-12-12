@@ -1,0 +1,37 @@
+{
+  "name": "aspect-ratio",
+  "description": "Get the screen aspect ratio of a device",
+  "version": "0.12.12",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "coffee-script": "*",
+    "gulp": "*",
+    "gulp-header": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "mocha": "*",
+    "should": "*",
+    "vinyl-source-stream": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/Kikobeats/aspect-ratio",
+  "keywords": [
+    "aspect",
+    "ratio",
+    "device",
+    "screen"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": "Kikobeats/aspect-ratio",
+  "scripts": {
+    "test": "sh test/test.sh"
+  }
+}
