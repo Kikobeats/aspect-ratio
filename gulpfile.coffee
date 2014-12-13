@@ -13,8 +13,8 @@ source     = require 'vinyl-source-stream'
 # -- Files ---------------------------------------------------------------------
 
 path =
-  filename : 'aspect.ratio.js'
-  shorcut  : 'aspect.ratio'
+  filename : 'aspect-ratio.js'
+  shorcut  : 'aspect-ratio'
   dist     : 'dist'
 
 banner = [

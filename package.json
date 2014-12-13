@@ -1,7 +1,7 @@
 {
   "name": "aspect-ratio",
   "description": "Get the screen aspect ratio of a device",
-  "version": "0.12.12",
+  "version": "0.12.13",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",

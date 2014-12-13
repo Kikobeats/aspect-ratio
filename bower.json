@@ -1,7 +1,7 @@
 {
   "name": "aspect-ratio",
   "main": "dist/aspect-ratio.js",
-  "version": "0.12.12",
+  "version": "0.12.13",
   "authors": [
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
   ],
