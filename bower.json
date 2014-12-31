@@ -1,18 +1,11 @@
 {
   "name": "aspect-ratio",
-  "main": "dist/aspect-ratio.js",
-  "version": "0.12.13",
+  "description": "Get the screen aspect ratio of a device",
+  "version": "0.12.31",
   "authors": [
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
   ],
-  "description": "Get the screen aspect ratio of a device",
-  "keywords": [
-    "aspect",
-    "ratio",
-    "device",
-    "screen"
-  ],
-  "license": "MIT",
+  "homepage": "https://github.com/Kikobeats/aspect-ratio",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -20,5 +13,12 @@
     "test",
     "tests"
   ],
-  "homepage": "https://github.com/Kikobeats/aspect-ratio"
+  "keywords": [
+    "aspect",
+    "ratio",
+    "device",
+    "screen"
+  ],
+  "license": "MIT",
+  "main": "dist/aspect-ratio.js"
 }

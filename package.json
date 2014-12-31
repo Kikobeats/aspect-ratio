@@ -1,11 +1,17 @@
 {
   "name": "aspect-ratio",
   "description": "Get the screen aspect ratio of a device",
-  "version": "0.12.13",
+  "version": "0.12.31",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
     "url": "https://github.com/Kikobeats"
+  },
+  "bin": {
+    "aspectRatio": "bin/index.js"
+  },
+  "dependencies": {
+    "meow": "*"
   },
   "devDependencies": {
     "browserify": "*",
