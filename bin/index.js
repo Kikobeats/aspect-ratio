@@ -5,14 +5,13 @@ var cli = require('meow')({
   pkg: "../package.json",
   help: [
       'Usage',
-      '  $ aspectRatio [path][options]',
+      '  $ aspectRatio <width><height>[options]',
       '\n  options:',
       '\t -s\t     specified a separator. (by default is \':\').',
       '\t --version   output the current version.',
       '\n  examples:',
       '\t aspectRatio 1920 1080',
       '\t aspectRatio 800 600 -s /',
-      '\t aspectRatio -i bin -i client -e yml',
   ].join('\n')
 });
 
