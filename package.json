@@ -20,7 +20,7 @@
     "gulp-header": "*",
     "gulp-uglify": "*",
     "gulp-util": "*",
-    "mocha": "*",
+    "mocha": "4.0.0",
     "should": "*",
     "vinyl-source-stream": "*"
   },
