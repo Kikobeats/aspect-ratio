@@ -1,15 +1,30 @@
 {
   "name": "aspect-ratio",
   "description": "Get the screen aspect ratio of a device",
+  "homepage": "https://github.com/Kikobeats/aspect-ratio",
   "version": "1.0.0",
+  "main": "./index.js",
+  "bin": {
+    "aspect-ratio": "bin/index.js"
+  },
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "bin": {
-    "aspectRatio": "bin/index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikobeats/aspect-ratio.git"
   },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/aspect-ratio/issues"
+  },
+  "keywords": [
+    "aspect",
+    "device",
+    "ratio",
+    "screen"
+  ],
   "dependencies": {
     "meow": "latest"
   },
@@ -27,17 +42,11 @@
   "engines": {
     "node": "*"
   },
-  "homepage": "https://github.com/Kikobeats/aspect-ratio",
-  "keywords": [
-    "aspect",
-    "ratio",
-    "device",
-    "screen"
+  "files": [
+    "bin"
   ],
-  "license": "MIT",
-  "main": "./index.js",
-  "repository": "Kikobeats/aspect-ratio",
   "scripts": {
     "test": "sh test/test.sh"
-  }
+  },
+  "license": "MIT"
 }
