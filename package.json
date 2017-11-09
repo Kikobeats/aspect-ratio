@@ -2,7 +2,7 @@
   "name": "aspect-ratio",
   "description": "Get the screen aspect ratio of a device",
   "homepage": "https://github.com/Kikobeats/aspect-ratio",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "./index.js",
   "bin": {
     "aspect-ratio": "bin/index.js"

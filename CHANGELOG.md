@@ -1,3 +1,11 @@
+<a name="2.0.1"></a>
+## 2.0.1 (2017-11-09)
+
+* Refactor ([fa2af04](https://github.com/Kikobeats/aspect-ratio/commit/fa2af04))
+* Refactor scaffold ([0178bc7](https://github.com/Kikobeats/aspect-ratio/commit/0178bc7))
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2017-11-08)
 
