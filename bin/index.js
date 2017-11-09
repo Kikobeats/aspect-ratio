@@ -1,25 +1,23 @@
 #!/usr/bin/env node
-'use strict';
-var ratio = require('..');
-var cli = require('meow')({
-  pkg: "../package.json",
+'use strict'
+const ratio = require('..')
+const cli = require('meow')({
+  pkg: '../package.json',
   help: [
-      'Usage',
-      '  $ aspectRatio <width><height>[options]',
-      '\n  options:',
-      '\t -s\t     specified a separator. (by default is \':\').',
-      '\t --version   output the current version.',
-      '\n  examples:',
-      '\t aspectRatio 1920 1080',
-      '\t aspectRatio 800 600 -s /',
+    'Usage',
+    '  $ aspectRatio <width><height>[options]',
+    '\n  options:',
+    "\t -s\t     specified a separator. (by default is ':').",
+    '\t --version   output the current version.',
+    '\n  examples:',
+    '\t aspectRatio 1920 1080',
+    '\t aspectRatio 800 600 -s /'
   ].join('\n')
-});
+})
 
+const width = cli.input[0]
+const height = cli.input[1]
+const separator = cli.flags.s || ':'
 
-var width = cli.input[0]
-var height = cli.input[1]
-var separator = cli.flags.s || ':';
-
-if (!height) return cli.showHelp();
-
-console.log(ratio(width, height, separator));
+if (!height) cli.showHelp()
+else console.log(ratio(width, height, separator))

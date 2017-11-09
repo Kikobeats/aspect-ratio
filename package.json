@@ -29,24 +29,27 @@
     "meow": "latest"
   },
   "devDependencies": {
-    "browserify": "latest",
-    "coffee-script": "latest",
-    "gulp": "latest",
-    "gulp-header": "latest",
-    "gulp-uglify": "latest",
-    "gulp-util": "latest",
     "mocha": "latest",
     "should": "latest",
-    "vinyl-source-stream": "latest"
+    "standard": "latest",
+    "standard-markdown": "latest"
   },
   "engines": {
     "node": "*"
   },
   "files": [
-    "bin"
+    "bin",
+    "index.js"
   ],
   "scripts": {
-    "test": "sh test/test.sh"
+    "lint": "standard-markdown && standard",
+    "pretest": "npm run lint",
+    "test": "mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
 }
