@@ -1,23 +1,22 @@
 'use strict'
 
-module.exports = (numerator, denominator, separator) => {
-  var divisor, gcd, temp
-  separator = separator || ':'
-  gcd = function (a, b) {
-    return b === 0 ? a : gcd(b, a % b)
-  }
-  if (numerator === denominator) {
-    return '1' + separator + '1'
-  }
+const gcd = (a, b) => b === 0 ? a : gcd(b, a % b)
+const isUndefined = value => typeof value === 'undefined'
+
+module.exports = (numerator, denominator, separator = ':') => {
+  let temp
+
+  if (numerator === denominator) return `1${separator}1`
+
   if (numerator < denominator) {
     temp = numerator
     numerator = denominator
     denominator = temp
   }
-  divisor = gcd(numerator, denominator)
-  if (typeof temp === 'undefined') {
-    return numerator / divisor + separator + denominator / divisor
-  } else {
-    return denominator / divisor + separator + numerator / divisor
-  }
+
+  const divisor = gcd(numerator, denominator)
+
+  return isUndefined(temp)
+    ? `${numerator / divisor}${separator}${denominator / divisor}`
+    : `${denominator / divisor}${separator}${numerator / divisor}`
 }

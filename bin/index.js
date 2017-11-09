@@ -5,13 +5,13 @@ const cli = require('meow')({
   pkg: '../package.json',
   help: [
     'Usage',
-    '  $ aspectRatio <width><height>[options]',
+    '  $ aspect-ratio <width><height>[options]',
     '\n  options:',
     "\t -s\t     specified a separator. (by default is ':').",
     '\t --version   output the current version.',
     '\n  examples:',
-    '\t aspectRatio 1920 1080',
-    '\t aspectRatio 800 600 -s /'
+    '\t aspect-ratio 1920 1080',
+    '\t aspect-ratio 800 600 -s /'
   ].join('\n')
 })
 

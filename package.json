@@ -35,7 +35,7 @@
     "standard-markdown": "latest"
   },
   "engines": {
-    "node": "*"
+    "node": ">=6"
   },
   "files": [
     "bin",
