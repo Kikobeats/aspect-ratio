@@ -3,7 +3,7 @@
   "description": "Get the screen aspect ratio of a device",
   "homepage": "https://github.com/Kikobeats/aspect-ratio",
   "version": "2.0.1",
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "bin": {
     "aspect-ratio": "bin/index.js"
   },
@@ -29,6 +29,8 @@
     "meow": "latest"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "mocha": "latest",
     "should": "latest",
     "standard": "latest",
@@ -39,12 +41,13 @@
   },
   "files": [
     "bin",
-    "index.js"
+    "lib"
   ],
   "scripts": {
     "lint": "standard-markdown && standard",
     "pretest": "npm run lint",
-    "test": "mocha"
+    "test": "mocha",
+    "prepare": "babel index.js --out-dir lib"
   },
   "license": "MIT",
   "standard": {
