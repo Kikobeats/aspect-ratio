@@ -29,8 +29,8 @@
     "meow": "latest"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-cli": "latest",
+    "babel-preset-env": "latest",
     "mocha": "latest",
     "should": "latest",
     "standard": "latest",
