@@ -1,3 +1,11 @@
+<a name="2.0.2"></a>
+## 2.0.2 (2017-11-23)
+
+* Transpile the library so it can be used by browsers ([9cfa48c](https://github.com/Kikobeats/aspect-ratio/commit/9cfa48c))
+* Update babel deps to latest ([7314bb7](https://github.com/Kikobeats/aspect-ratio/commit/7314bb7))
+
+
+
 <a name="2.0.1"></a>
 ## 2.0.1 (2017-11-09)
 
