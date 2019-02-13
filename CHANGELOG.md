@@ -1,3 +1,13 @@
+<a name="2.0.3"></a>
+## 2.0.3 (2019-02-13)
+
+* Cleanup test log ([00392ca](https://github.com/Kikobeats/aspect-ratio/commit/00392ca))
+* refactored and simplified library. Added tests for utils ([91a1901](https://github.com/Kikobeats/aspect-ratio/commit/91a1901))
+* Removed package-lock.json ([d1c973e](https://github.com/Kikobeats/aspect-ratio/commit/d1c973e))
+* updated prepare script to include all root js files ([0ff015c](https://github.com/Kikobeats/aspect-ratio/commit/0ff015c))
+
+
+
 <a name="2.0.2"></a>
 ## 2.0.2 (2017-11-23)
 
