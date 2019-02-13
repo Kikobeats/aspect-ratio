@@ -45,7 +45,7 @@
   ],
   "scripts": {
     "lint": "standard-markdown && standard",
-    "prepare": "babel index.js --out-dir lib",
+    "prepare": "babel *.js --out-dir lib",
     "pretest": "npm run lint",
     "test": "mocha"
   },
