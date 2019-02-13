@@ -4,6 +4,7 @@ const aspectRatio = require('..')
 const should = require('should')
 
 describe('aspect ratio', () => {
+  console.log({ aspectRatio })
   it('1024x768', () => {
     should(aspectRatio(1024, 768)).equal('4:3')
   })
