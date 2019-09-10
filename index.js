@@ -9,7 +9,7 @@ module.exports = (height, width, seperator = ':') => {
   if (typeof width !== 'number') {
     throw new Error(`Invalid width: ${width}`)
   }
-  
+
   const [h, w] = highestFirst(height, width)
   const divisor = gcd(h, w)
   return formatAspectRatio(h, w, divisor, seperator)
