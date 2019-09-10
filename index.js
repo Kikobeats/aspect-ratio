@@ -6,7 +6,7 @@ module.exports = (height, width, seperator = ':') => {
     throw new Error(`Invalid height: ${height}`)
   }
 
-  if (!width) {
+  if (isNaN(Number(width))) {
     throw new Error(`Invalid width: ${width}`)
   }
   const [h, w] = highestFirst(height, width)
