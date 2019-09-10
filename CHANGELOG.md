@@ -1,3 +1,17 @@
+<a name="2.1.0"></a>
+# 2.1.0 (2019-09-10)
+
+* build: tweaks ([c99cc91](https://github.com/Kikobeats/aspect-ratio/commit/c99cc91))
+* added some tests ([fb955cf](https://github.com/Kikobeats/aspect-ratio/commit/fb955cf))
+* maximum call stack exceeded when no width and height is sent ([37c7fc7](https://github.com/Kikobeats/aspect-ratio/commit/37c7fc7))
+* typos ([b355b42](https://github.com/Kikobeats/aspect-ratio/commit/b355b42))
+* Update index.js ([d606bbb](https://github.com/Kikobeats/aspect-ratio/commit/d606bbb))
+* Update index.js ([85241d2](https://github.com/Kikobeats/aspect-ratio/commit/85241d2))
+* Update index.js ([97f3cce](https://github.com/Kikobeats/aspect-ratio/commit/97f3cce))
+* Update index.js ([28b9494](https://github.com/Kikobeats/aspect-ratio/commit/28b9494))
+
+
+
 <a name="2.0.3"></a>
 ## 2.0.3 (2019-02-13)
 
