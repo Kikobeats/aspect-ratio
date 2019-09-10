@@ -2,7 +2,7 @@
 const { gcd, highestFirst, formatAspectRatio } = require('./utils')
 
 module.exports = (height, width, seperator = ':') => {
-  if (!height) {
+  if (isNaN(Number(height))) {
     throw new Error(`Invalid height: ${height}`)
   }
 
