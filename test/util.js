@@ -1,4 +1,4 @@
-const { highestFirst, gcd, formatAspectRatio } = require('../utils')
+const { highestFirst, gcd, formatAspectRatio } = require('../src/util')
 const should = require('should')
 
 describe('highestFirst', () => {
@@ -14,7 +14,10 @@ describe('highestFirst', () => {
   })
 
   it('-Infinity,Infinity', () => {
-    should(highestFirst(-Infinity, Infinity)).containDeepOrdered([Infinity, -Infinity])
+    should(highestFirst(-Infinity, Infinity)).containDeepOrdered([
+      Infinity,
+      -Infinity
+    ])
   })
 })
 

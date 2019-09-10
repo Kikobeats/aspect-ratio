@@ -3,7 +3,7 @@
   "description": "Get the screen aspect ratio of a device",
   "homepage": "https://github.com/Kikobeats/aspect-ratio",
   "version": "2.0.3",
-  "main": "./lib/index.js",
+  "main": "src",
   "bin": {
     "aspect-ratio": "bin/index.js"
   },
@@ -12,6 +12,20 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
+  "contributors": [
+    {
+      "name": "Michael W. Clark",
+      "email": "michaelwclark@gmail.com"
+    },
+    {
+      "name": "Andrei Vinaga",
+      "email": "andrei.vinaga@ownzones.com"
+    },
+    {
+      "name": "Trevor Blades",
+      "email": "tdblades@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kikobeats/aspect-ratio.git"
@@ -29,23 +43,20 @@
     "meow": "latest"
   },
   "devDependencies": {
-    "babel-cli": "latest",
-    "babel-preset-env": "latest",
     "mocha": "latest",
     "should": "latest",
     "standard": "latest",
     "standard-markdown": "latest"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "files": [
     "bin",
-    "lib"
+    "src"
   ],
   "scripts": {
     "lint": "standard-markdown && standard",
-    "prepare": "babel *.js --out-dir lib",
     "pretest": "npm run lint",
     "test": "mocha"
   },

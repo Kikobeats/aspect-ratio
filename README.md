@@ -4,7 +4,6 @@
 [![Dependency status](http://img.shields.io/david/Kikobeats/aspect-ratio.svg?style=flat)](https://david-dm.org/Kikobeats/aspect-ratio)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/aspect-ratio.svg?style=flat)](https://david-dm.org/Kikobeats/aspect-ratio#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/aspect-ratio.svg?style=flat)](https://www.npmjs.org/package/aspect-ratio)
-[![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat)](https://www.gittip.com/Kikobeats/)
 
 > Get the aspect ratio of a device.
 
