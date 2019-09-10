@@ -19,4 +19,34 @@ describe('aspect ratio', () => {
   it('using other separator', () => {
     should(aspectRatio(1920, 1080, '/')).equal('16/9')
   })
+
+  it('invalid width', () => {
+    let error = ''
+    try {
+      should(aspectRatio(1920, null, '/')).equal('16/9')
+    } catch (e) {
+      error = e.message
+    }
+    should(error).equal('Invalid width: null')
+  })
+
+  it('invalid height', () => {
+    let error = ''
+    try {
+      should(aspectRatio(null, 1080, '/')).equal('16/9')
+    } catch (e) {
+      error = e.message
+    }
+    should(error).equal('Invalid height: null')
+  })
+
+  it('invalid width & height', () => {
+    let error = ''
+    try {
+      should(aspectRatio(null, null)).equal('16/9')
+    } catch (e) {
+      error = e.message
+    }
+    should(error).equal('Invalid height: null')
+  })
 })
