@@ -1,3 +1,9 @@
+## <small>2.1.1 (2019-12-09)</small>
+
+* test: ensure to handle invalid input ([ca44579](https://github.com/Kikobeats/aspect-ratio/commit/ca44579)), closes [#13](https://github.com/Kikobeats/aspect-ratio/issues/13)
+
+
+
 <a name="2.1.0"></a>
 # 2.1.0 (2019-09-10)
 
