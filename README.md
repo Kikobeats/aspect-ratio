@@ -34,12 +34,12 @@ $ aspect-ratio
     $ aspect-ratio <width><height>[options]
 
     options:
-  	 -s	     specified a separator. (by default is ':').
-  	 --version   output the current version.
+     -s          specified a separator. (by default is ':').
+     --version   output the current version.
 
     examples:
-  	 aspect-ratio 1920 1080
-  	 aspect-ratio 800 600 -s /
+     aspect-ratio 1920 1080
+     aspect-ratio 800 600 -s /
 ```
 
 ## License
