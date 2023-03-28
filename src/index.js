@@ -2,7 +2,7 @@
 
 const { gcd, highestFirst, formatAspectRatio } = require('./util')
 
-module.exports = (height, width, seperator = ':') => {
+module.exports = (width, height, seperator = ':') => {
   if (typeof height !== 'number') {
     throw new Error(
       `Invalid height: expected a \`number\`, received \`${height}\``
@@ -17,5 +17,5 @@ module.exports = (height, width, seperator = ':') => {
 
   const [h, w] = highestFirst(height, width)
   const divisor = gcd(h, w)
-  return formatAspectRatio(h, w, divisor, seperator)
+  return formatAspectRatio(width, height, divisor, seperator)
 }
