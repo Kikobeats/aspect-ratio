@@ -5,7 +5,7 @@ const cli = require('meow')({
   pkg: '../package.json',
   help: [
     'Usage',
-    '  $ aspect-ratio <width><height>[options]',
+    '  $ aspect-ratio <width> <height> [options]',
     '\n  options:',
     "\t -s\t     specified a separator. (by default is ':').",
     '\t --version   output the current version.',
