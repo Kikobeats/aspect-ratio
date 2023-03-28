@@ -48,7 +48,7 @@
     "screen"
   ],
   "dependencies": {
-    "meow": "latest"
+    "mri": "latest"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
