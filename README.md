@@ -1,9 +1,8 @@
 # aspect-ratio
 
-[![Build Status](http://img.shields.io/travis/Kikobeats/aspect-ratio/master.svg?style=flat)](https://travis-ci.org/Kikobeats/aspect-ratio)
-[![Dependency status](http://img.shields.io/david/Kikobeats/aspect-ratio.svg?style=flat)](https://david-dm.org/Kikobeats/aspect-ratio)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/aspect-ratio.svg?style=flat)](https://david-dm.org/Kikobeats/aspect-ratio#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/aspect-ratio.svg?style=flat)](https://www.npmjs.org/package/aspect-ratio)
+![Last version](https://img.shields.io/github/tag/Kikobeats/aspect-ratio.svg?style=flat-square)
+[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/aspect-ratio.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/aspect-ratio.)
+[![NPM Status](https://img.shields.io/npm/dm/aspect-ratio.svg?style=flat-square)](https://www.npmjs.org/package/aspect-ratio.)
 
 > Get the aspect ratio of a device.
 
