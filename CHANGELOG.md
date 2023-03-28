@@ -1,8 +1,8 @@
-## <small>2.1.1 (2019-12-09)</small>
+# Changelog
 
-* test: ensure to handle invalid input ([ca44579](https://github.com/Kikobeats/aspect-ratio/commit/ca44579)), closes [#13](https://github.com/Kikobeats/aspect-ratio/issues/13)
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-
+### 2.1.2 (2023-03-28)
 
 <a name="2.1.0"></a>
 # 2.1.0 (2019-09-10)
@@ -63,6 +63,3 @@
 * fixed shorcut ([a2e8273](https://github.com/Kikobeats/aspect-ratio/commit/a2e8273))
 * improve documentation and cli ([3a9a304](https://github.com/Kikobeats/aspect-ratio/commit/3a9a304))
 * updated documentation ([511b7fe](https://github.com/Kikobeats/aspect-ratio/commit/511b7fe))
-
-
-
